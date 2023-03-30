@@ -1,0 +1,11 @@
+schema_version: 1
+name: jboss.container.eap.galleon.config.mp.elytron
+version: '1.0-elytron'
+description: Install Galleon mp default configuration.
+
+execute:
+- script: configure.sh
+
+modules:
+  install:
+  - name: jboss.container.eap.galleon.config.mp
